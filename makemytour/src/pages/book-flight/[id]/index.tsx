@@ -533,11 +533,11 @@ const BookFlightPage = () => {
                 {user ? (
                   <BookingContent />
                 ) : (
-                  <DialogContent className="bg-white text-black">
+                  <DialogContent className="bg-white">
                     <DialogHeader>
-                      <DialogTitle>Login Required</DialogTitle>
+                      <DialogTitle className="text-black">Login Required</DialogTitle>
                     </DialogHeader>
-                    <p>Please log in to continue with your booking.</p>
+                    <p className="text-black">Please log in to continue with your booking.</p>
                     <SignupDialog
                       trigger={
                         <Button className="w-full">Log In / Sign Up</Button>

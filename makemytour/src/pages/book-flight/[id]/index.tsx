@@ -533,7 +533,7 @@ const BookFlightPage = () => {
                 {user ? (
                   <BookingContent />
                 ) : (
-                  <DialogContent className="bg-white">
+                  <DialogContent className="bg-white text-black">
                     <DialogHeader>
                       <DialogTitle>Login Required</DialogTitle>
                     </DialogHeader>
